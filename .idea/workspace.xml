@@ -20,7 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="157221a0-3583-47fb-90c7-c6ea261312a9" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/php/h03/op3.3/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.4/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.5/img/aap1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.5/img/aap2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.5/img/aap3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.5/img/aap4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.5/img/aap5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.5/img/aap6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.5/img/aap7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.5/img/aap8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.5/img/aap9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h03/op3.5/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/index.html" afterDir="false" />
     </list>
@@ -54,10 +64,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/php/h03/op3.5/img" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php/h03/op3.5/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/php/h03/op3.2/img/bomen" />
       <recent name="$PROJECT_DIR$/php/h03/op3.2/img" />
@@ -78,7 +91,7 @@
       <workItem from="1612191327927" duration="3826000" />
       <workItem from="1612348746336" duration="721000" />
       <workItem from="1612349493534" duration="3729000" />
-      <workItem from="1612438112373" duration="5721000" />
+      <workItem from="1612438112373" duration="7869000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1612192405945</created>
@@ -143,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612443207724</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1612444558527</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612444558527</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,16 +194,16 @@
       <screen x="0" y="25" width="1792" height="1024" />
     </state>
     <state x="291" y="242" key="Github.UntrackedFilesDialog/0.25.1792.1024@0.25.1792.1024" timestamp="1612189900240" />
-    <state x="241" y="459" key="NewPhpFileDialog" timestamp="1612443658145">
-      <screen x="0" y="25" width="1792" height="1017" />
-    </state>
-    <state x="241" y="459" key="NewPhpFileDialog/0.25.1792.1017@0.25.1792.1017" timestamp="1612443658145" />
-    <state x="241" y="460" key="NewPhpFileDialog/0.25.1792.1019@0.25.1792.1019" timestamp="1612441807539" />
-    <state x="241" y="461" key="NewPhpFileDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1612193970567" />
-    <state x="44" y="270" key="Vcs.Push.Dialog.v2" timestamp="1612443214249">
+    <state x="241" y="460" key="NewPhpFileDialog" timestamp="1612447294803">
       <screen x="0" y="25" width="1792" height="1019" />
     </state>
-    <state x="44" y="269" key="Vcs.Push.Dialog.v2/0.25.1792.1017@0.25.1792.1017" timestamp="1612349563080" />
+    <state x="241" y="459" key="NewPhpFileDialog/0.25.1792.1017@0.25.1792.1017" timestamp="1612443658145" />
+    <state x="241" y="460" key="NewPhpFileDialog/0.25.1792.1019@0.25.1792.1019" timestamp="1612447294803" />
+    <state x="241" y="461" key="NewPhpFileDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1612193970567" />
+    <state x="44" y="269" key="Vcs.Push.Dialog.v2" timestamp="1612444564536">
+      <screen x="0" y="25" width="1792" height="1017" />
+    </state>
+    <state x="44" y="269" key="Vcs.Push.Dialog.v2/0.25.1792.1017@0.25.1792.1017" timestamp="1612444564536" />
     <state x="44" y="270" key="Vcs.Push.Dialog.v2/0.25.1792.1019@0.25.1792.1019" timestamp="1612443214249" />
     <state x="44" y="270" key="Vcs.Push.Dialog.v2/0.25.1792.1021@0.25.1792.1021" timestamp="1612193850298" />
   </component>
