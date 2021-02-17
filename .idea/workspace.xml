@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="157221a0-3583-47fb-90c7-c6ea261312a9" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/php/h05/login formulier/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/h05/login formulier/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h06/op6.1/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h06/op6.2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/h06/op6.2/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,16 +60,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/php/h03" />
-      <recent name="$PROJECT_DIR$/php/h03/op3.7/img" />
-      <recent name="$PROJECT_DIR$/php/h03/op3.2/img/bomen" />
-      <recent name="$PROJECT_DIR$/php/h03/op3.2/img" />
-      <recent name="$PROJECT_DIR$/php/h03/op3.1/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/php/h05/Beasties/img/apen" />
       <recent name="$PROJECT_DIR$/php/h03/op3.5/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/php/h06/op6.2" />
+      <recent name="$PROJECT_DIR$/php/h06/op6.1" />
+      <recent name="$PROJECT_DIR$/php/h03" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +85,8 @@
       <workItem from="1612348746336" duration="721000" />
       <workItem from="1612349493534" duration="3729000" />
       <workItem from="1612438112373" duration="10333000" />
-      <workItem from="1612783019435" duration="7797000" />
+      <workItem from="1612783019435" duration="10474000" />
+      <workItem from="1613130155383" duration="3556000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1612192405945</created>
@@ -239,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612953688997</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update">
+      <created>1612954079527</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612954079527</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,16 +280,17 @@
       <screen x="0" y="25" width="1792" height="1024" />
     </state>
     <state x="291" y="242" key="Github.UntrackedFilesDialog/0.25.1792.1024@0.25.1792.1024" timestamp="1612189900240" />
-    <state x="241" y="459" key="NewPhpFileDialog" timestamp="1612953770897">
-      <screen x="0" y="25" width="1792" height="1017" />
+    <state x="241" y="462" key="NewPhpFileDialog" timestamp="1613134532925">
+      <screen x="0" y="25" width="1792" height="1024" />
     </state>
     <state x="241" y="459" key="NewPhpFileDialog/0.25.1792.1017@0.25.1792.1017" timestamp="1612953770897" />
     <state x="241" y="460" key="NewPhpFileDialog/0.25.1792.1019@0.25.1792.1019" timestamp="1612780841927" />
     <state x="241" y="461" key="NewPhpFileDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1612193970567" />
-    <state x="44" y="269" key="Vcs.Push.Dialog.v2" timestamp="1612953693412">
+    <state x="241" y="462" key="NewPhpFileDialog/0.25.1792.1024@0.25.1792.1024" timestamp="1613134532925" />
+    <state x="44" y="269" key="Vcs.Push.Dialog.v2" timestamp="1612954086251">
       <screen x="0" y="25" width="1792" height="1017" />
     </state>
-    <state x="44" y="269" key="Vcs.Push.Dialog.v2/0.25.1792.1017@0.25.1792.1017" timestamp="1612953693412" />
+    <state x="44" y="269" key="Vcs.Push.Dialog.v2/0.25.1792.1017@0.25.1792.1017" timestamp="1612954086251" />
     <state x="44" y="270" key="Vcs.Push.Dialog.v2/0.25.1792.1019@0.25.1792.1019" timestamp="1612448689470" />
     <state x="44" y="270" key="Vcs.Push.Dialog.v2/0.25.1792.1021@0.25.1792.1021" timestamp="1612193850298" />
   </component>
