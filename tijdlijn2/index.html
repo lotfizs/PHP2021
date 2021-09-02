@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <style>
+
+
+        body {
+            margin:0;
+            background-color: crimson;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+
+        h1 {
+
+            color:#333;
+            font-weight:700;
+            margin-top:125px;
+            text-align:center;
+            text-transform:uppercase;
+            letter-spacing:4px;
+            line-height:23px;
+        }
+
+        /* --- Start progress bar --- */
+
+        .process-wrapper {
+            margin:auto;
+            max-width:1080px;
+        }
+
+        #progress-bar-container {
+            position:relative;
+            width:90%;
+            margin:auto;
+            height:100px;
+            margin-top:65px;
+        }
+
+        #progress-bar-container ul {
+            padding:0;
+            margin:0;
+            padding-top:15px;
+            z-index:9999;
+            position:absolute;
+            width:100%;
+            margin-top:-40px
+        }
+
+        #progress-bar-container li:before {
+            content:" ";
+            display:block;
+            margin:auto;
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            border:solid 2px #000;
+            transition:all ease 0.3s;
+
+        }
+
+        #progress-bar-container li.active:before, #progress-bar-container li:hover:before {
+            border:solid 2px #000;
+
+            background: linear-gradient(to right, #777 0%,#000 100%);
+        }
+
+        #progress-bar-container li {
+            list-style:none;
+            float:left;
+            width:20%;
+            text-align:center;
+            color:#000;
+            text-transform:uppercase;
+            font-size:11px;
+            cursor:pointer;
+            font-weight:700;
+            transition:all ease 0.2s;
+            vertical-align:bottom;
+            height:60px;
+            position:relative;
+        }
+
+        #progress-bar-container li .step-inner {
+            position:absolute;
+            width:100%;
+            bottom:0;
+            font-size: 14px;
+        }
+
+        #progress-bar-container li.active, #progress-bar-container li:hover {
+            color:#444;
+        }
+
+        #progress-bar-container li:after {
+            content:" ";
+            display:block;
+            width:6px;
+            height:6px;
+            background:#000;
+            margin:auto;
+            border:solid 7px #fff;
+            border-radius:50%;
+            margin-top:40px;
+            box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
+            transition:all ease 0.2s;
+
+        }
+
+        #progress-bar-container li:hover:after {
+            background:#000;
+        }
+
+        #progress-bar-container li.active:after {
+            background:#207893;
+        }
+
+        #progress-bar-container #line {
+            width:80%;
+            margin:auto;
+            background: #000;
+            height:6px;
+            position:absolute;
+            left:10%;
+            top:57px;
+            z-index:1;
+            border-radius:50px;
+            transition:all ease 0.9s;
+        }
+
+        #progress-bar-container #line-progress {
+            content:" ";
+            width:3%;
+            height:100%;
+            background: #000;
+            background: linear-gradient(to right, #777 0%,#000 100%);
+            position:absolute;
+            z-index:2;
+            border-radius:50px;
+            transition:all ease 0.9s;
+        }
+
+        #progress-content-section {
+            width:90%;
+            margin: auto;
+            background: #fff;
+            border-radius: 4px;
+        }
+
+        #progress-content-section .section-content {
+            padding:30px 40px;
+            text-align:center;
+        }
+
+        #progress-content-section .section-content h2 {
+            font-size:17px;
+            text-transform:uppercase;
+            color:#333;
+            letter-spacing:1px;
+        }
+
+        #progress-content-section .section-content p {
+            font-size:16px;
+            line-height:1.8em;
+            color:#777;
+        }
+
+        #progress-content-section .section-content {
+            display:none;
+            animation: FadeInUp 700ms ease 1;
+            animation-fill-mode:forwards;
+            transform:translateY(15px);
+            opacity:0;
+        }
+
+        #progress-content-section .section-content.active {
+            display:block;
+        }
+
+
+
+
+        /* --- Start progress bar --- */
+
+        .process-wrapper1 {
+            margin:auto;
+            max-width:1080px;
+        }
+
+        #progress-bar-container1 {
+            position:relative;
+            width:90%;
+            margin:auto;
+            height:100px;
+            margin-top:65px;
+        }
+
+        #progress-bar-container1 ul {
+            padding:0;
+            margin:0;
+            padding-top:15px;
+            z-index:9999;
+            position:absolute;
+            width:100%;
+            margin-top:-40px
+        }
+
+        #progress-bar-container1 li:before {
+            content:" ";
+            display:block;
+            margin:auto;
+            right: 100%;
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            border:solid 2px #000;
+            transition:all ease 0.3s;
+
+        }
+
+        #progress-bar-container1 li.active:before, #progress-bar-container1 li:hover:before {
+            border:solid 2px #000;
+
+            background: linear-gradient(to right, #777 0%,#000 100%);
+        }
+
+        #progress-bar-container1 li {
+            list-style:none;
+            float:left;
+            width:20%;
+            text-align:center;
+            color:#000;
+            text-transform:uppercase;
+            font-size:11px;
+            cursor:pointer;
+            font-weight:700;
+            transition:all ease 0.2s;
+            vertical-align:bottom;
+            height:60px;
+            position:relative;
+        }
+
+        #progress-bar-container1 li .step-inner {
+            position:absolute;
+            width:100%;
+            bottom:0;
+            font-size: 14px;
+        }
+
+        #progress-bar-container1 li.active, #progress-bar-container1 li:hover {
+            color:#444;
+        }
+
+        #progress-bar-container1 li:after {
+            content:" ";
+            display:block;
+            width:6px;
+            height:6px;
+            background:#000;
+            margin:auto;
+            border:solid 7px #fff;
+            border-radius:50%;
+            margin-top:40px;
+            box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
+            transition:all ease 0.2s;
+
+        }
+
+        #progress-bar-container1 li:hover:after {
+            background:#000;
+        }
+
+        #progress-bar-container1 li.active:after {
+            background:#207893;
+        }
+
+        #progress-bar-container1 #line {
+            width:80%;
+            margin:auto;
+            background: #000;
+            height:6px;
+            position:absolute;
+            left:10%;
+            top:57px;
+            z-index:1;
+            border-radius:50px;
+            transition:all ease 0.9s;
+        }
+
+        #progress-bar-container1 #line-progress {
+            content:" ";
+            width:50%;
+            height:100%;
+            background: #000;
+            background: linear-gradient(to right, #777 0%,#000 100%);
+            position:absolute;
+            z-index:2;
+            border-radius:50px;
+            transition:all ease 0.9s;
+        }
+
+        #progress-content-section1 {
+            width:90%;
+            margin: auto;
+            background: #fff;
+            border-radius: 4px;
+        }
+
+        #progress-content-section1 .section-content {
+            padding:30px 40px;
+            text-align:center;
+        }
+
+        #progress-content-section1 .section-content1 h2 {
+            font-size:17px;
+            text-transform:uppercase;
+            color:#333;
+            letter-spacing:1px;
+        }
+
+        #progress-content-section1 .section-content1 p {
+            font-size:16px;
+            line-height:1.8em;
+            color:#777;
+        }
+
+        #progress-content-section1 .section-content1 {
+            display:none;
+            animation: FadeInUp 700ms ease 1;
+            animation-fill-mode:forwards;
+            transform:translateY(15px);
+            opacity:0;
+        }
+
+        #progress-content-section1 .section-content.active {
+            display:block;
+        }
+
+        @keyframes FadeInUp {
+            0% {
+                transform:translateY(15px);
+                opacity:0;
+            }
+
+            100% {
+                transform:translateY(0px);
+                opacity:1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+
+<h1>MY Timeline</h1>
+<br>
+<div class="process-wrapper">
+    <div id="progress-bar-container">
+        <ul>
+            <li class="step step01 active"><div class="step-inner">STAGE</div></li>
+            <li class="step step02"><div class="step-inner">KEUZENDELEN</div></li>
+            <li class="step step03"><div class="step-inner">GENERIEKE VAKKEN</div></li>
+            <li class="step step04"><div class="step-inner">EXAMEN</div></li>
+            <li class="step step05"><div class="step-inner">EXAMEN</div></li>
+        </ul>
+
+        <div id="line">
+            <div id="line-progress"></div>
+        </div>
+    </div>
+
+    <div id="progress-content-section">
+        <div class="section-content discovery active">
+            <h2>STAGE</h2>
+            <p>Ik ga eerst mijn stage doen, en tijdens mijn stage ga ik ook keuzendelen doen.</p>
+        </div>
+
+        <div class="section-content strategy">
+            <h2>KEUZENDLEN</h2>
+            <p>Ik heb al 1 keuzendeel gemaakt, dus nog 3 te gaan. Ik denk niet dat ik daar veel tijd voor nodig heb. Maximaal 1 maand.</p>
+        </div>
+
+        <div class="section-content creative">
+            <h2>GENERIEKE VAKKEN</h2>
+            <p>Generieke vakken heb ik niet veel tijd voor nodig, het is gewoon studeren om een examen te kunnen maken. ik denk niet dat ik heel veel tijd nodig heb om te studeren.</p>
+        </div>
+
+        <div class="section-content production">
+            <h2>EXAMEN</h2>
+            <p>Als ik klaar ben met het leren van generieke vakken, ga ik de examens maken.</p>
+        </div>
+
+        <div class="section-content analysis">
+            <h2>EXAMEN</h2>
+            <p>Als ik alles heb afgerond ga ik examen doen van de opleiding.</p>
+        </div>
+    </div>
+</div>
+
+<div class="process-wrapper1">
+    <div id="progress-bar-container1">
+        <ul>
+            <li class="step step02 active"><div class="step-inner1">REFLECTIE</div></li>
+        </ul>
+    </div>
+
+    <div id="progress-content-section1">
+        <div class="section-content discovery active">
+            <h2>reflectie</h2>
+            <p>Hoe lang ben je hier nu en hoeveel heb je in die tijd gepresteerd? Ik ben hier 1 jaar en heb veel tijd bezuinigd.
+                Hoe tevreden ben je over je eigen prestaties? Loop je op schema? En zo niet:
+                waarom dan niet? Lag het allemaal alleen aan de omstandigheden of waren er ook dingen die je zelf anders had kunnen aanpakken? Ik ben heel tevreden over mijn prestaties.
+                Wat zijn de dingen die je tot nu toe goed hebt gedaan en die je echt wilt voortzetten? meer leren over ict. Wat zijn je belangrijkste verbeterpunten?
+                De dingen zijn die echt anders moeten als je je diploma wilt halen? het gaat prima zo. Wat zijn je belangrijkste inhoudelijke leerdoelen voor dit jaar? Waar wil je kennis over vergaren? niks denk ik.
+                Als je nog op stage moet: hoe ziet jouw ideale stage er uit en waarom? een plek waar ik veel kan leren
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+
+    $(".step").click( function() {
+        $(this).addClass("active").prevAll().addClass("active");
+        $(this).nextAll().removeClass("active");
+    });
+
+    $(".step01").click( function() {
+        $("#line-progress").css("width", "3%");
+        $(".discovery").addClass("active").siblings().removeClass("active");
+    });
+
+    $(".step02").click( function() {
+        $("#line-progress").css("width", "25%");
+        $(".strategy").addClass("active").siblings().removeClass("active");
+    });
+
+    $(".step03").click( function() {
+        $("#line-progress").css("width", "50%");
+        $(".creative").addClass("active").siblings().removeClass("active");
+    });
+
+    $(".step04").click( function() {
+        $("#line-progress").css("width", "75%");
+        $(".production").addClass("active").siblings().removeClass("active");
+    });
+
+    $(".step05").click( function() {
+        $("#line-progress").css("width", "100%");
+        $(".analysis").addClass("active").siblings().removeClass("active");
+    });
+
+
+</script>
+
+</body>
+</html>

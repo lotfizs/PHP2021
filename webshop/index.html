@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <img src="img/jk.png" class="logo">
+        <nav>
+            <ul id="menulist">
+                <li><a href="Laptops.html">Laptops</a> </li>
+                <li><a href="">Contact</a> </li>
+                <li><a href="">Cart</a> </li>
+            </ul>
+        </nav>
+        <img src="img/menu.png" class="menu-icon"
+             onclick="togglemenu()">
+    </div>
+    <div class="row">
+        <div class="col-1">
+            <h2>Macbook Pro<br> 13''</h2>
+            <h3>2021</h3>
+            <p>M1</p>
+            <h4>€1499.99</h4>
+            <button type="button"> Buy Now<img src="img/arrow.png">
+            </button>
+        </div>
+        <div class="col-2">
+            <img src="img/jk-3.png" class="macbook">
+            <div class="color-box"></div>
+            <div class="add-btn">
+                <img src="img/add.png">
+                <p><small>Add to cart</small></p>
+            </div>
+        </div>
+    </div>
+    <div class="social-links">
+        <img src="img/fb.png">
+        <img src="img/tw.png">
+        <img src="img/ig.png">
+    </div>
+</div>
+
+
+    <script>
+
+        var menuList = document.getElementById("menulist");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+          if(menuList.style.maxHeight == "0px")
+           {
+               menuList.style.maxHeight = "130px";
+           }
+          else
+          {
+              menuList.style.maxHeight = "0px";
+          }
+        }
+    </script>
+
+</body>
+</html>

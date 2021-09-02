@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <img src="img/jk.png" class="logo">
+        <nav>
+            <ul id="menulist">
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="">Contact</a> </li>
+                <li><a href="">Cart</a> </li>
+            </ul>
+        </nav>
+        <img src="img/menu.png" class="menu-icon"
+             onclick="togglemenu()">
+    </div>
+    <script>
+
+        var menuList = document.getElementById("menulist");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    <div class="row">
+        <div class="col-1">
+            <h2>Razer Blade<br> 15''</h2>
+            <h3>2021</h3>
+            <p> Intel® Core™ i7-10750H</p>
+            <h4>€2,699.99</h4>
+            <button type="button"> Buy Now<img src="img/arrow.png">
+            </button>
+        </div>
+        <div class="col-2">
+            <img src="img/razer-1.png" class="macbook">
+            <div class="color-box"></div>
+            <div class="add-btn">
+                <img src="img/add.png">
+                <p><small>Add to cart</small></p>
+            </div>
+        </div>
+    </div>
+    <h2 class="title">Scroll down</h2>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/apple-logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="img/razer-logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="img/msi-logo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!------ laptops --------->
+ <div class="small-container">
+     <h2 class="title">MACBOOK</h2>
+     <div class="row">
+         <div class="col-4">
+             <img src="img/macbookair.png">
+             <h4>Macbook air 13" 8gb</h4>
+             <p>€1100</p>
+         </div>
+         <div class="col-4">
+             <img src="img/jk-3.png">
+             <h4>Macbook Pro 13" 16gb</h4>
+             <p>€1499,99</p>
+         </div>
+         <div class="col-4">
+             <img src="img/jk-3.png">
+             <h4>Macbook Pro 16" 16gb</h4>
+             <p>€1499,99</p>
+         </div>
+         <div class="col-4">
+             <img src="img/jk-3.png">
+             <h4>Macbook Pro 16" 32gb</h4>
+             <p>€1499,99</p>
+         </div>
+     </div>
+     <h2 class="title">RAZER</h2>
+     <div class="row">
+         <div class="col-4">
+             <img src="img/razer-1.png">
+             <h4>Razer Blade 15"</h4>
+             <p>€2,699.99</p>
+         </div>
+         <div class="col-4">
+             <img src="img/razer-2.png">
+             <h4>Macbook Pro 13" 16gb</h4>
+             <p>€1499,99</p>
+         </div>
+         <div class="col-4">
+             <img src="img/razer-3.png">
+             <h4>Macbook Pro 16" 16gb</h4>
+             <p>€1499,99</p>
+         </div>
+         <div class="col-4">
+             <img src="img/razer-4.png">
+             <h4>Macbook Pro 16" 32gb</h4>
+             <p>€1499,99</p>
+         </div>
+     </div>
+     <h2 class="title">MSI</h2>
+     <div class="row">
+         <div class="col-4">
+             <img src="img/msi-1.jpeg">
+             <h4>Razer Blade 15"</h4>
+             <p>€2,699.99</p>
+         </div>
+         <div class="col-4">
+             <img src="img/msi-2.jpeg">
+             <h4>Macbook Pro 13" 16gb</h4>
+             <p>€1499,99</p>
+         </div>
+         <div class="col-4">
+             <img src="img/msi-3.jpeg">
+             <h4>Macbook Pro 16" 16gb</h4>
+             <p>€1499,99</p>
+         </div>
+         <div class="col-4">
+             <img src="img/msi-4.jpeg">
+             <h4>Macbook Pro 16" 32gb</h4>
+             <p>€1499,99</p>
+         </div>
+     </div>
+ </div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="img/play-store.png">
+                    <img src="img/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/jk.png">
+                <p>Our Purpose is to sustainably make the pleasure and
+                    benefits of laptops accessible to the many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2021 - Josh Kummar</p>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

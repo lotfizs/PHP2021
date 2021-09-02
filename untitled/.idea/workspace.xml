@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58b984e4-79cc-4ec0-bb08-e4463cdf2dd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../chatapp/JavaScript/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/JavaScript/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/JavaScript/pass-show-hide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/JavaScript/signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/JavaScript/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/chat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/img/cookie2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/php/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/php/data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/php/get-chat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/php/insert-chat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/php/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/php/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/php/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/php/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/php/users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatapp/users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie/img/cartoon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie/img/cookie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/java game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opdracht2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/Laptops.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/app-store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/apple-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/ig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/jk-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/jk-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/jk-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/jk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/macbookair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/msi-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/msi-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/msi-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/msi-4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/msi-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/play-store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/razer-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/razer-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/razer-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/razer-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/razer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/img/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webshop/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1v1XoTuSVAs8tHRQ88vRInxcPlp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58b984e4-79cc-4ec0-bb08-e4463cdf2dd2" name="Default Changelist" comment="" />
+      <created>1625730743672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625730743672</updated>
+      <workItem from="1625730744839" duration="3851000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
