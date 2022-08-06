@@ -2,36 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Cookie Constent Box</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <div class="wrapper2">
-        <img src="img/cookie2.jpg" alt="">
-        <div class="content1">
-            <header>Cookies Content</header>
-            <p>This website use cookies to give you the best experience</p>
-            <div class="buttons2">
+<body>
+<div class="wrapper">
+    <img src="#" alt="">
+    <div class="content">
+        <header>Cookies Consent</header>
+        <p>This website use cookies to ensure you get the best experience on our website.</p>
+        <div class="buttons">
             <button class="item">I understand</button>
-            <a href="#" class="item">Learn More</a>
-        </div>
+            <a href="#" class="item">Learn more</a>
         </div>
     </div>
-<body>
-
- <script>
-    const cookieBox = document.querySelector(".wrapper2"),
-        acceptBtn = cookieBox.querySelector(".buttons2 button");
-
-        acceptBtn.onclick = ()=>{
-            //1 month cookie regestrtion
-          document.cookie = "CookieBy=Lzs; max-age="+60*60*24*30;
-          if(document.cookie){
-            cookieBox.classList.add("hide");
-          }else{
-              alert("Cookie can't be set!");
-          }
+</div>
+<script>
+    const cookieBox = document.querySelector(".wrapper"),
+        acceptBtn = cookieBox.querySelector("button");
+    acceptBtn.onclick = ()=>{
+        //setting cookie for 1 month, after one month it'll be expired automatically
+        document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
+        if(document.cookie){ //if cookie is set
+            cookieBox.classList.add("hide"); //hide cookie box
+        }else{ //if cookie not set then alert an error
+            alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
         }
- </script>
-
+    }
+    let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
+    //if cookie is set then hide the cookie box else show it
+    checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+</script>
 </body>
 </html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        html {
+            overflow-y: scroll;
+        }
+        /* For width smaller than 480px: */
+        body {
+            background-repeat: no-repeat;
+            background-color: #2B2B2B;
+            background-position:center top;
+            background-attachment:non-fixed;
+            background-image: url('img/01c.jpg');
+            height:4800px;
+
+        }
+
+        /* For width 760px and larger: */
+        @media only screen and (min-width: 760px) {
+            body {
+                background-image: url('img/01b.jpg');
+                height:3600px;
+            }
+        }
+
+        /* For width 1200px and larger: */
+        @media only screen and (min-width: 1200px) {
+            body {
+                background-image: url('img/01a.jpg');
+                height:2750px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<button onclick="openWin()">Create window</button>
+<button onclick="resizeWinTo()">Resize the window to 800px * 600px</button>
+<button onclick="resizeWinBy()">Make the new window smaller</button>
+
+<SCRIPT>
+    window.resizeTo(600,800);
+</SCRIPT>
+</body>
+</body>
+</html>

@@ -1,0 +1,141 @@
+*:fullscreen
+*:-ms-fullscreen,
+*:-webkit-full-screen,
+*:-moz-full-screen {
+    overflow: auto !important;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+    background-repeat: repeat-x;
+    background-attachment: non-fixed;
+    background-position: center top;
+}
+
+#toCenterTheImage {
+    position: relative;
+}
+#img {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#menu {
+    position: fixed;
+    font-family: Arial, Geneva, sans-serif;
+    font-size: 25px;
+    top: 0px;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    z-index: 999999;
+}
+.menu_standaard {
+    color: transparent;
+}
+.menu_standaard:hover, .menu_begin {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    float: left;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.list:hover {
+    font-weight: bold;
+    color: #aaaaaa;
+}
+
+#lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    z-index: 9999;
+}
+
+#content {
+    margin-left: 10%;
+}
+#content p {
+    color: #fff;
+    font-family: Arial, Geneva, sans-serif;
+    font-size: 25px;
+    width: 35%;
+}
+
+#pijl {
+    margin-left: 10%;
+    margin-top: 75px;
+    width: 2%;
+    min-width: 25px;
+}
+
+.button {
+    width: 120px;
+    height: auto;
+    font-family: Arial, Geneva, sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: #67696d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7.5px;
+}
+.button:hover {
+    font-weight: bold;
+    color: #c3c6cc;
+}
+
+#teller {
+    position: fixed;
+    bottom: 7%;
+    margin-left: 90%;
+    width: auto;
+    max-width: 100px;
+    min-width: 80px;
+    height: auto;
+    max-height: 100px;
+    min-height: 80px;
+    border-radius: 5px;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    z-index: 9999;
+    color: white;
+    font-family: Arial, Geneva, sans-serif;
+    text-align: center;
+}
+#pagina_nummer {
+    font-size: 25px;
+    vertical-align: middle;
+}
+#versie_nummer {
+    font-size: 10px;
+}
+#fullscreen_button {
+    float: right;
+    margin-right: 1.5%;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="index" href="clickdemo-responsive.html"/>
+    <title>Error: Geen paginanaam gevonden</title>
+
+
+<body style="">
+<div id = "lightbox">
+    <div>
+        <img id = "pijl" src = "img/arrow.svg" />
+    </div>
+    <div id = "content">
+        <p>Navigeren tussen de pagina's via dit menu</p>
+        <button name="close" id = "close" class="button">Begrepen!</button>
+    </div>
+</div>
+
+<div id = "teller"><p id = "pagina_nummer"></p></div>
+
+<div id="menu" class="menu_begin">
+    <ul>
+        <script type="text/javascript">
+            document.write(x);
+        </script>
+        <li style="float: right; margin-right: 2.5%;">
+            <p id = "versie_nummer"></p>
+        </li>
+        <li id="fullscreen_button">
+            <input type="button" value="Fullscreen" onclick="toggleFullScreen(document.getElementById('img'))" class="button" />
+        </li>
+
+    </ul>
+</div>
+
+<div id = "toCenterTheImage">
+    <img id = "img" src="" />
+</div>
+
+<script src="java.js"></script>
+</body>
+</html>
